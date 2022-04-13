@@ -1,0 +1,65 @@
+
+MECANICA:
+
+Elongation at Break (%):
+
+((?=.*\b((e|E)+(a|A)+(b|B))\b)(?=.*\B%\B).*)|((?=.*\b((e|E)+(b|B))\b)(?=.*\B(%)\B).*)|((?=.*\b((e|E)+(\w\w\w\w\w\w\w\w\w))\b)(?=.*\B(%)\B).*)|((?=.*\b((e|E)+(\w\w\w\w\w\w\w\w\w))\b)(?=.*\b((b|B)+(\w\w\w\w))\b)(?=.*\B(%)\B).*)
+
+
+
+
+Tensile strength (TS, MPa):
+((?=.*\b((t|T)+(\w\w\w\w\w\w))\b)(?=.*\b((s|S)+(\w\w\w\w\w\w\w))\b)(?=.*\b(m|M)+(p|P)+(a|A)\b).*)|((?=.*\b((t|T)+(s|S))\b)(?=.*\b(m|M)+(p|P)+(a|A)\b).*)
+
+
+
+
+Young modulus (YM, MPa):
+((?=.*\b((e|E)+(m|M))\b)(?=.*\b(m|M)+(p|P)+(a|A)\b).*)|((?=.*\b((e|E)+(m|M))\b)(?=.*\b(g|G)+(p|P)+(a|A)\b).*)|((?=.*\b((y|Y)+(\w\w\w\w))\b)(?=.*\b((m|M)+(\w\w\w\w\w\w))\b)(?=.*\b(y|Y)(m|M)\b).*)
+
+
+todo:
+((?=.*\b((e|E)+(a|A)+(b|B))\b)(?=.*\B%\B).*)|((?=.*\b((e|E)+(b|B))\b)(?=.*\B(%)\B).*)|((?=.*\b((e|E)+(\w\w\w\w\w\w\w\w\w))\b)(?=.*\B(%)\B).*)|((?=.*\b((e|E)+(\w\w\w\w\w\w\w\w\w))\b)(?=.*\b((b|B)+(\w\w\w\w))\b)(?=.*\B(%)\B).*)|((?=.*\b((t|T)+(\w\w\w\w\w\w))\b)(?=.*\b((s|S)+(\w\w\w\w\w\w\w))\b)(?=.*\b(m|M)+(p|P)+(a|A)\b).*)|((?=.*\b((t|T)+(s|S))\b)(?=.*\b(m|M)+(p|P)+(a|A)\b).*)|((?=.*\b((e|E)+(m|M))\b)(?=.*\b(m|M)+(p|P)+(a|A)\b).*)|((?=.*\b((e|E)+(m|M))\b)(?=.*\b(g|G)+(p|P)+(a|A)\b).*)|((?=.*\b((y|Y)+(\w\w\w\w))\b)(?=.*\b((m|M)+(\w\w\w\w\w\w))\b)(?=.*\b(y|Y)(m|M)\b).*)
+
+
+
+temp:
+
+Tm (°C) Melting temp
+((?=.*\b((t|T)+(m|M))\b)(?=.*\b(c|C)\b).*)|((?=.*\b((m|M)+(\w\w\w\w\w\w))\b)(?=.*\b((t|T)+(\w\w\w))\b)(?=.*\b(c|C)\b).*)
+
+
+Te (°C)
+((?=.*\b((t|T)+(e|E))\b)(?=.*\b(c|C)\b).*)
+
+To (°C)
+((?=.*\b((t|T)+(o|O))\b)(?=.*\b(c|C)\b).*)
+
+
+
+Physical:
+
+Crystallinity %
+((?=.*\b((c|C)+(\w\w\w\w\w\w\w\w\w\w\w\w))\b)(?=.*\B(%)\B).*)|((?=.*\b((c|C)+(\w\w\w\w\w\w\w\w\w\w\w\w))\b).*)
+
+
+
+thickness (μm)mm
+((?=.*\b((t|T)+(\w\w\w\w\w\w\w\w))\b).*)|((?=.*\b((t|T)+(\w\w\w\w\w\w\w\w))\b)(?=.*\b(m|M)+(m|M)\b).*)
+
+
+Density (g/cm3)
+((?=.*\b((d|D)+(\w\w\w\w\w\w))\b)(?=.*\b(g|G)\b).*)|((?=.*\b((d|D)+(\w\w\w\w\w\w))\b).*)
+
+
+Rheological:
+
+WCA (deg):
+((?=.*\b((w|W)+(c|C)+(a|A))\b)(?=.*\b(d|D)+(e|E)+(g|G)\b).*)|((?=.*\b((w|W)+(c|C)+(a|A))\b).*)
+
+k:
+((?=.*\b((k|K))\b).*)
+
+
+n:
+((?=.*\b((n|N))\b).)
